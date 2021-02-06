@@ -1,0 +1,41 @@
+{
+    "name": "sudochecksum/php-enum-collection",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "keywords": [],
+    "homepage": "https://github.com/Sudochecksum/php-enum-collection",
+    "prefer-stable": true,
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Sudo Checksum",
+            "email": "sudochecksum@pme.me",
+            "homepage": "https://github.com/Sudochecksum",
+            "role": "Lead-Developer"
+        }
+    ],
+    "support": {
+        "email": "sudochecksum@pm.me"
+    },
+    "funding": [
+        {
+            "type": "brave-awards",
+            "url": "https://github.com/Sudochecksum"
+        }
+
+    ],
+    "require": {
+        "php" : "8.*",
+        "myclabs/php-enum": "^1.7"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sudochecksum\\": "src/"
+        }
+    }
+}
