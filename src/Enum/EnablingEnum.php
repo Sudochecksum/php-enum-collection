@@ -11,11 +11,11 @@ use MyCLabs\Enum\Enum;
  * @package sudochecksum/php-enum-collection
  * @category Enum
  *
- * @method static StatusEnum ACTIVE()
- * @method static StatusEnum INACTIVE()
+ * @method static EnablingEnum ENABLED()
+ * @method static EnablingEnum DISABLED()
  */
-class StatusEnum extends Enum
+class EnablingEnum extends Enum
 {
-    public const ACTIVE = 'active';
-    public const INACTIVE = 'inactive';
+    public const ENABLED = 'enabled';
+    public const DISABLED = 'disabled';
 }
